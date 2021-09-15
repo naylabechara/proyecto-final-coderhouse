@@ -1,0 +1,153 @@
+/* Pantalla de escritorio */
+
+
+
+@media (min-width:1024px) {
+
+    h1 {
+        font-size: 55px;
+    }
+    
+        /* ENCABEZADO */
+    
+    .container-fluid {
+        padding-left: 15px;
+        }
+
+
+    .nav-link { // links de los items
+        color: $colorPagina;
+        font-size: 21px;
+        transition: all 0.3s;
+    }
+
+.navbar-nav {
+    margin-left: auto;
+}
+        /* tamaño del menú al pasar el mouse */
+        
+        .nav-link:hover {
+        font-size: 22px;
+        }
+    
+    
+    
+    
+    
+    
+            /* INDEX (INICIO) */
+    
+            #tituloIndex {
+                padding: 180px;
+                color: white;
+                text-align: center;
+                background-image: url(../img/fotoinicio.jpeg);
+                height: 800px;
+                background-position: center;
+                margin: 0;
+            }
+            
+                /* el "MCM" más grande */
+                #tituloIndex h1 { 
+                    font-size: 100px;
+                    color: white;
+                    font-weight: 700;
+                    }
+        
+            .mainInicio {
+                color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: 40px 0;
+            
+                    .mainInicio__div {
+                    background-color: $colorPagina;
+                    padding: 30px;
+                    margin: 20px 40px;
+                    width: 300px;
+                    height: 520px;
+                    text-align: center;
+                    transition: all 0.4s;
+                    }
+                
+                    .mainInicio__div:hover {
+                        transform: scale(1.05, 1.05);
+                    }
+                    
+                    .mainInicio__h3 {
+                        text-align: center;
+                        padding: 18px;
+                        font-size: 30px;
+                        font-weight: 700;
+                    }
+                }
+
+            .btn {
+                font-size: 23px;
+                margin: 20px 500px;
+                padding: 7px 10px;
+            }
+    
+            /* SOBRE NOSOTROS */
+            
+            .mainSobreNosotros {
+                flex-wrap: nowrap;
+            }
+    
+            .mainSobreNosotros__video {
+                order: -1;
+            }
+        
+            /* Áreas */
+    
+            .areasAreas div {
+                margin: 30px;
+            }
+    
+            .tablaAreas {
+                margin: 74px;
+            }
+    
+    
+        /* CONTACTO */
+    
+        .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
+            width: 45vw;
+            height: 60vh;
+        }
+    
+        .sectionDatosContacto__datos {
+            padding: 30px;
+            font-size: 21px;
+        }
+    
+        /* PIE DE PAGINA */
+    
+
+        footer {
+            background-image: linear-gradient($colorPagina, #011922);
+            padding: 40px;
+
+            .pieDePagina {
+
+                .pieDePagina__iconos {
+                    padding: 30px;
+                    display: inline;
+                }
+                
+                div img {
+                    width: 20px;
+                }
+                .pieDePagina__h3 {
+                    font-weight: 500;
+                }
+            }
+        }
+    
+
+        
+
+    
+    }

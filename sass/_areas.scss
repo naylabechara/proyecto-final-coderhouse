@@ -1,0 +1,62 @@
+
+
+
+/* Áreas */
+
+.areasAreas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+        .areasAreas__div {
+            text-align: center;
+            padding: 30px;
+            width: 550px;
+            background-color: #083B46;
+            color: white;
+            transition: all 0.3s;
+
+            h2 {
+                padding: 10px;
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+    }
+
+.areasAreas__div:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+
+    /* tabla con precios */
+
+    .tablaAreas {
+        display:grid;
+        row-gap: 10px;
+        text-align: center;
+        margin: 30px 15px;
+
+        .tablaAreas__consulta {
+            background-color:  #083b46;
+            padding: 15px;
+            margin: 0;
+            color: white;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .tablaAreas__precio {
+            background-color: #555555;
+            color: white;
+            padding: 15px;   
+            margin: 0;
+        }
+    }
+
+    /* Esto en CSS aparece con un error por ms-grid y no sé como sacarlo */
+    .tablaAreas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }

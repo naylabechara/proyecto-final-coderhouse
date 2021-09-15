@@ -1,0 +1,23 @@
+
+
+
+/* Sobre nosotros */
+
+
+.mainSobreNosotros {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+
+    .mainSobreNosotros__video {
+        width: 500px;
+        height: fit-content;
+        margin: 30px 50px;
+        border: solid black 1px;
+    }
+
+    .mainSobreNosotros__h1 {
+        color: #083B46;
+    }
+}

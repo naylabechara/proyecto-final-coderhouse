@@ -1,0 +1,32 @@
+
+
+/* Pie de pagina */
+
+footer {
+    background-color: #083B46;
+    margin-top: 20px;
+    padding: 20px;
+
+    .pieDePagina {
+        text-align: center;
+        color: white;
+        font-family: montserrat;
+        line-height: 2;
+        padding: 20px;
+    
+        p {
+            margin-bottom: 15px;
+            }
+    
+        .pieDePagina__iconos {
+            padding: 10px;
+            font-size: 18px;
+    
+            img {
+                width: 20px;
+            }
+        }
+    }
+}
+
+

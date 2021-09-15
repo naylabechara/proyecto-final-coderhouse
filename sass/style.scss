@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'normalize';
+@import 'header';
+@import 'inicio';
+@import 'sobrenosotros';
+@import 'areas';
+@import 'consultasfrecuentes';
+@import 'contacto';
+@import 'footer';
+@import 'responsive';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $grisClaro;
+    font-family: montserrat;
+}
+
+
+
+
+
+/* esto es para el h1 de las ultimas 4 secciones */
+h1 {
+    color: #083b46;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+

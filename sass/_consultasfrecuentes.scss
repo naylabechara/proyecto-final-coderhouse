@@ -1,0 +1,26 @@
+
+
+
+/* Consultas frecuentes */
+
+.consultasFrecuentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0;
+
+    .consultasFrecuentes__div {
+        padding: 30px;
+        margin: 30px;
+        background-color: #a3a3a3;
+        color: rgb(0, 0, 0);
+        width: 500px;
+        border: solid 1px;
+
+        h3 {
+            padding: 20px 0;
+            font-size: 21px;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto de los abogados para asesoramiento legal">
+    <meta name="keywords" content="abogada, abogado, estudio juridico, contacto, consultas, despidos, divorcios, contratos, sucesion, mediacion, asesoramiento legal"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>MCM Abogada | Contacto</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+    
+                <a class="navbar-brand" href="index.html"><img src="img/logo3.png" alt="Logo"></a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="áreas.html">Áreas</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultas-frecuentes.html">Consultas frecuentes</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <article>
+
+        <!-- titulo de la pagina -->
+        <h1 class="animate__animated animate__zoomIn">Contactanos!</h1>
+
+        <!-- container con mapa y cuadro con datos --> 
+        <section class="sectionDatosContacto">
+
+            <!-- cuadro con datos de contacto a la derecha del mapa -->
+            <div>
+                <ul class="sectionDatosContacto__datos">
+                    <li><img src="img/iconoubicacion.png" alt="icono mapa" width="30px" height="30px">
+                    Bermúdez 1988, Monte Castro, CABA.</li>
+                    
+                    <li><img src="img/iconowhatsapp.png" alt="icono whatsapp" width="30px" height="30px">
+                    +54 9 11-4928-0791</li>
+
+                    <li><img src="img/iconogmail.png" alt="icono gmail" width="30px" height="30px">
+                    marcrismarcelo@gmail.com</li>
+
+                    <li><img src="img/iconoinstagram.png" alt="icono instagram" width="30px" height="30px">
+                    @mcmabogados</li>
+                </ul>
+            </div>
+
+            <!-- mapa -->
+            <div>
+                <iframe class="sectionDatosContacto__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.367058868445!2d-58.51091158519462!3d-34.62016336587455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d3354ea42d%3A0xef1b006bc51efd7!2sBerm%C3%BAdez%201988%2C%20B1648%20EWG%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1627757476217!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- formulario -->
+        <section>
+            <h3 id="h3Contacto" class="">¡Dejanos tus datos!</h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="form-horizontal" method="GET">
+
+                            <div class="mb-3">
+                                <input type="text" placeholder="Nombre completo *" class="form-control" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" placeholder="Teléfono *" class="form-control" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" placeholder="Correo electrónico *" class="form-control" required>
+                            </div>
+
+                                <div class="mb-3">
+                                    <input type="text" placeholder="Motivo de consulta *" class="form-control">
+                                </div>
+
+                                <div>
+                                <label for="areas" id="labelAreaDeConsulta">Área de consulta *</label>
+                                    <select id="areas" class="form-select">
+                                        <option value="1">Laboral</option>
+                                        <option value="2">Penal</option>
+                                        <option value="3">Civil</option>
+                                        <option value="4">Empresarial</option>
+                                        <option value="5">Otro</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Dejanos tu mensaje" rows="5"></textarea>
+                                </div>
+
+                                <div class="container">
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Enviar
+                                    </button>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">¡Muchas gracias!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            Nos comunicaremos con vos en breves
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <!-- <div class="mb-3 text-center">
+                                    <button type="submit" class="btn btn-secondary btn-lg">Enviar</button> -->
+
+                                </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </article>
+
+
+
+    <!-- pie de pagina -->
+
+    <footer>
+        <div class="pieDePagina">
+            <h3 class="pieDePagina__h3"> Ante cualquier consulta no dude en <a href="contacto.html"><strong>contactarnos</strong></a></h3>
+            <p>Nos vamos a comunicar con vos en un máximo de 24 horas hábiles</p>
+        
+            <div class="pieDePagina__iconos"><img src="img/iconowhatsapp.png" alt="icono whatsapp">
+            +54 9 11-4928-0791</div>        
+        
+            <div class="pieDePagina__iconos"><img src="img/iconogmail.png" alt="icono gmail">
+            marcrismarcelo@gmail.com</div>
+
+            <div class="pieDePagina__iconos"><img src="img/iconoinstagram.png" alt="icono instagram">
+            @mcmabogados</div>
+
+        </div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

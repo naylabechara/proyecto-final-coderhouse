@@ -1,0 +1,790 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+========================================================================== */
+/**
+* 1. Correct the line height in all browsers.
+* 2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+    ========================================================================== */
+/**
+* Remove the margin in all browsers.
+*/
+body {
+  margin: 0;
+}
+
+/**
+* Render the `main` element consistently in IE.
+*/
+main {
+  display: block;
+}
+
+/**
+* Correct the font size and margin on `h1` elements within `section` and
+* `article` contexts in Chrome, Firefox, and Safari.
+*/
+h1 {
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+    ========================================================================== */
+/**
+* 1. Add the correct box sizing in Firefox.
+* 2. Show the overflow in Edge and IE.
+*/
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+    ========================================================================== */
+/**
+* Remove the gray background on active links in IE 10.
+*/
+a {
+  background-color: transparent;
+}
+
+/**
+* 1. Remove the bottom border in Chrome 57-
+* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+*/
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+* Add the correct font weight in Chrome, Edge, and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+* Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+* Prevent `sub` and `sup` elements from affecting the line height in
+* all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+    ========================================================================== */
+/**
+* Remove the border on images inside links in IE 10.
+*/
+img {
+  border-style: none;
+  max-width: 100%;
+}
+
+/* Forms
+    ========================================================================== */
+/**
+* 1. Change the font styles in all browsers.
+* 2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+* Show the overflow in IE.
+* 1. Show the overflow in Edge.
+*/
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+* Remove the inheritance of text transform in Edge, Firefox, and IE.
+* 1. Remove the inheritance of text transform in Firefox.
+*/
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+* Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+* Remove the inner border and padding in Firefox.
+*/
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+* Restore the focus styles unset by the previous rule.
+*/
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+* Correct the padding in Firefox.
+*/
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+* 1. Correct the text wrapping in Edge and IE.
+* 2. Correct the color inheritance from `fieldset` elements in IE.
+* 3. Remove the padding so developers are not caught out when they zero out
+*    `fieldset` elements in all browsers.
+*/
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+* Add the correct vertical alignment in Chrome, Firefox, and Opera.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+* Remove the default vertical scrollbar in IE 10+.
+*/
+textarea {
+  overflow: auto;
+}
+
+/**
+* 1. Add the correct box sizing in IE 10.
+* 2. Remove the padding in IE 10.
+*/
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+* Correct the cursor style of increment and decrement buttons in Chrome.
+*/
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+* 1. Correct the odd appearance in Chrome and Safari.
+* 2. Correct the outline style in Safari.
+*/
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+* Remove the inner padding in Chrome and Safari on macOS.
+*/
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+* 1. Correct the inability to style clickable types in iOS and Safari.
+* 2. Change font properties to `inherit` in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+    ========================================================================== */
+/*
+* Add the correct display in Edge, IE 10+, and Firefox.
+*/
+details {
+  display: block;
+}
+
+/*
+* Add the correct display in all browsers.
+*/
+summary {
+  display: list-item;
+}
+
+/* Misc
+    ========================================================================== */
+/**
+* Add the correct display in IE 10+.
+*/
+template {
+  display: none;
+}
+
+/**
+* Add the correct display in IE 10.
+*/
+[hidden] {
+  display: none;
+}
+
+/* ---ENCABEZADO--- */
+.nav-item {
+  /* ítems del menú */
+  padding: 10px;
+}
+
+.nav-item .nav-link {
+  /* formato de los links */
+  font-size: 21px;
+  font-weight: 500;
+}
+
+/* Inicio */
+/* "MCM Abogada María Cristina Marcelo" */
+#tituloIndex {
+  font-size: 13px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  background-image: url(../img/fotoinicio.jpeg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  margin: 30px 0;
+}
+
+#tituloIndex h1 {
+  /* el "MCM" más grande */
+  font-size: 40px;
+  color: white;
+}
+
+/* container de las 3 cajas */
+.mainInicio {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0;
+  /* Cada caja */
+}
+
+.mainInicio .mainInicio__div {
+  background-color: #083B46;
+  padding: 20px;
+  margin: 20px 40px;
+  text-align: center;
+  margin: 10px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.mainInicio .mainInicio__div h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+/* seccion aparte de novedades juridicas */
+.btn {
+  border: 1px solid;
+  font-weight: 400;
+  font-size: 23px;
+  margin: 15px 200px;
+  padding: 7px 10px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  border: 2px solid #083B46;
+  color: #083B46;
+}
+
+#collapseExample {
+  text-align: center;
+  margin: 20px 30px 30px;
+}
+
+/* Sobre nosotros */
+.mainSobreNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainSobreNosotros .mainSobreNosotros__video {
+  width: 500px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 30px 50px;
+  border: solid black 1px;
+}
+
+.mainSobreNosotros .mainSobreNosotros__h1 {
+  color: #083B46;
+}
+
+/* Áreas */
+.areasAreas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.areasAreas .areasAreas__div {
+  text-align: center;
+  padding: 30px;
+  width: 550px;
+  background-color: #083B46;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.areasAreas .areasAreas__div h2 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.areasAreas__div:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/* tabla con precios */
+.tablaAreas {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 10px;
+  text-align: center;
+  margin: 30px 15px;
+}
+
+.tablaAreas .tablaAreas__consulta {
+  background-color: #083b46;
+  padding: 15px;
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.tablaAreas .tablaAreas__precio {
+  background-color: #555555;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Esto en CSS aparece con un error por ms-grid y no sé como sacarlo */
+.tablaAreas {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+}
+
+/* Consultas frecuentes */
+.consultasFrecuentes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.consultasFrecuentes .consultasFrecuentes__div {
+  padding: 30px;
+  margin: 30px;
+  background-color: #a3a3a3;
+  color: black;
+  width: 500px;
+  border: solid 1px;
+}
+
+.consultasFrecuentes .consultasFrecuentes__div h3 {
+  padding: 20px 0;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+/* contacto */
+.sectionDatosContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionDatosContacto .sectionDatosContacto__datos {
+  background-color: #083B46;
+  list-style-type: none;
+  color: white;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sectionDatosContacto__mapa, .sectionDatosContacto__datos {
+  width: 100vw;
+  height: 80vh;
+}
+
+/* formulario */
+#h3Contacto {
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #083b46;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 75px 0px 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 15px 0;
+}
+
+#labelAreaDeConsulta {
+  margin: 10px 5px 0;
+  font-size: 19px;
+}
+
+.btn-secondary {
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+/* Pie de pagina */
+footer {
+  background-color: #083B46;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer .pieDePagina {
+  text-align: center;
+  color: white;
+  font-family: montserrat;
+  line-height: 2;
+  padding: 20px;
+}
+
+footer .pieDePagina p {
+  margin-bottom: 15px;
+}
+
+footer .pieDePagina .pieDePagina__iconos {
+  padding: 10px;
+  font-size: 18px;
+}
+
+footer .pieDePagina .pieDePagina__iconos img {
+  width: 20px;
+}
+
+/* Pantalla de escritorio */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 55px;
+  }
+  /* ENCABEZADO */
+  .container-fluid {
+    padding-left: 15px;
+  }
+  .nav-link {
+    color: #083B46;
+    font-size: 21px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  /* tamaño del menú al pasar el mouse */
+  .nav-link:hover {
+    font-size: 22px;
+  }
+  /* INDEX (INICIO) */
+  #tituloIndex {
+    padding: 180px;
+    color: white;
+    text-align: center;
+    background-image: url(../img/fotoinicio.jpeg);
+    height: 800px;
+    background-position: center;
+    margin: 0;
+  }
+  /* el "MCM" más grande */
+  #tituloIndex h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+  }
+  .mainInicio {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 40px 0;
+  }
+  .mainInicio .mainInicio__div {
+    background-color: #083B46;
+    padding: 30px;
+    margin: 20px 40px;
+    width: 300px;
+    height: 520px;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .mainInicio .mainInicio__div:hover {
+    -webkit-transform: scale(1.05, 1.05);
+            transform: scale(1.05, 1.05);
+  }
+  .mainInicio .mainInicio__h3 {
+    text-align: center;
+    padding: 18px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .btn {
+    font-size: 23px;
+    margin: 20px 500px;
+    padding: 7px 10px;
+  }
+  /* SOBRE NOSOTROS */
+  .mainSobreNosotros {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .mainSobreNosotros__video {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  /* Áreas */
+  .areasAreas div {
+    margin: 30px;
+  }
+  .tablaAreas {
+    margin: 74px;
+  }
+  /* CONTACTO */
+  .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
+    width: 45vw;
+    height: 60vh;
+  }
+  .sectionDatosContacto__datos {
+    padding: 30px;
+    font-size: 21px;
+  }
+  /* PIE DE PAGINA */
+  footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#083B46), to(#011922));
+    background-image: linear-gradient(#083B46, #011922);
+    padding: 40px;
+  }
+  footer .pieDePagina .pieDePagina__iconos {
+    padding: 30px;
+    display: inline;
+  }
+  footer .pieDePagina div img {
+    width: 20px;
+  }
+  footer .pieDePagina .pieDePagina__h3 {
+    font-weight: 500;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d4d4d4;
+  font-family: montserrat;
+}
+
+/* esto es para el h1 de las ultimas 4 secciones */
+h1 {
+  color: #083b46;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
