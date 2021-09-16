@@ -767,6 +767,10 @@ footer .pieDePagina .pieDePagina__iconos img {
   footer .pieDePagina .pieDePagina__h3 {
     font-weight: 500;
   }
+  footer .pieDePagina .pieDePagina__h3 a {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 * {
