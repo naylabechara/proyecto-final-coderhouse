@@ -86,8 +86,14 @@
 
             .btn {
                 font-size: 23px;
-                margin: 20px 500px;
                 padding: 7px 10px;
+                width: 70%;
+                margin: 10px 15%;
+                border-radius: 0;
+            }
+
+            #collapseExample {
+                margin: 20px 30px 30px;
             }
     
             /* SOBRE NOSOTROS */
@@ -127,7 +133,6 @@
     
 
         footer {
-            background-image: linear-gradient($colorPagina, #011922);
             padding: 40px;
 
             .pieDePagina {
@@ -143,10 +148,7 @@
                 .pieDePagina__h3 {
                     font-weight: 500;
 
-                    a {
-                        color:white;
-                        text-decoration: underline;
-                    }
+
                 }
             }
         }

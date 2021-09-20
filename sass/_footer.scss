@@ -3,7 +3,7 @@
 /* Pie de pagina */
 
 footer {
-    background-color: #083B46;
+    background-image: linear-gradient($colorPagina, #011922);
     margin-top: 20px;
     padding: 20px;
 
@@ -14,16 +14,29 @@ footer {
         line-height: 2;
         padding: 20px;
     
+        .pieDePagina__h3 {
+            a {
+                color:white;
+                text-decoration: underline;
+            }
+        }
         p {
             margin-bottom: 15px;
             }
     
         .pieDePagina__iconos {
-            padding: 10px;
+            padding: 15 0px;
             font-size: 18px;
     
             img {
                 width: 20px;
+                margin: 5px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 30px;
             }
         }
     }

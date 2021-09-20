@@ -53,7 +53,8 @@
         border: 1px solid;
         font-weight: 400;
         font-size: 23px;
-        margin: 15px 200px;
+        margin-bottom: 20px;
+        width: 100%;
         padding: 7px 10px;
         transition: transform 0.4s;
     }
@@ -67,5 +68,10 @@
 
     #collapseExample {
         text-align: center;
-        margin: 20px 30px 30px;
+        margin: 10px 0;
+
+        #collapse__h4 {
+            margin: 30px 5px;
+        }
+
     }
