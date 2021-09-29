@@ -3,26 +3,19 @@
 
 /* contacto */
 
-
-
-.sectionDatosContacto {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-
     .sectionDatosContacto__datos {
         background-color:#083B46;
         list-style-type: none;
         color: white;
+        text-align: center;
         padding: 20px;
         box-sizing: border-box;
         font-size: 18px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin: 50px 0 0;
         }
-    }
     
     .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
         width: 100vw;
@@ -41,7 +34,8 @@
     color: white;
     padding: 20px;
     text-align: center;
-    margin: 75px 0px 10px;
+    margin: 75px 0px 40px;
+    width: 100vw;
 }
 
 input, textarea {

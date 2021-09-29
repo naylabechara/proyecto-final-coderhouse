@@ -358,12 +358,12 @@ template {
 /* "MCM Abogada María Cristina Marcelo" */
 #tituloIndex {
   font-size: 13px;
-  padding-top: 10px;
+  padding-top: 50px;
   color: white;
   text-align: center;
   background-image: url(../img/fotoinicio.jpeg);
   background-size: cover;
-  height: 300px;
+  height: 400px;
   background-position: center;
   margin: 30px 0;
 }
@@ -448,6 +448,7 @@ template {
   padding: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  text-align: justify;
 }
 
 .mainSobreNosotros .mainSobreNosotros__video {
@@ -558,24 +559,11 @@ template {
 }
 
 /* contacto */
-.sectionDatosContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.sectionDatosContacto .sectionDatosContacto__datos {
+.sectionDatosContacto__datos {
   background-color: #083B46;
   list-style-type: none;
   color: white;
+  text-align: center;
   padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -590,6 +578,7 @@ template {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 50px 0 0;
 }
 
 .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
@@ -605,7 +594,8 @@ template {
   color: white;
   padding: 20px;
   text-align: center;
-  margin: 75px 0px 10px;
+  margin: 75px 0px 40px;
+  width: 100vw;
 }
 
 input, textarea {
@@ -628,8 +618,9 @@ input, textarea {
 footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#083B46), to(#011922));
   background-image: linear-gradient(#083B46, #011922);
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 20px;
+  width: 100vw;
 }
 
 footer .pieDePagina {
@@ -650,7 +641,6 @@ footer .pieDePagina p {
 }
 
 footer .pieDePagina .pieDePagina__iconos {
-  padding: 15 0px;
   font-size: 18px;
 }
 
@@ -662,7 +652,7 @@ footer .pieDePagina .pieDePagina__iconos img {
 footer .pieDePagina .pieDePagina__iconos a {
   color: white;
   text-decoration: none;
-  padding: 30px;
+  margin: 40px;
 }
 
 /* Pantalla de escritorio */
@@ -767,8 +757,8 @@ footer .pieDePagina .pieDePagina__iconos a {
   }
   /* CONTACTO */
   .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
-    width: 45vw;
-    height: 60vh;
+    width: 100vw;
+    height: 80vh;
   }
   .sectionDatosContacto__datos {
     padding: 30px;
@@ -804,7 +794,7 @@ body {
 h1 {
   color: #083b46;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   padding: 30px;
   font-weight: 600;
 }
