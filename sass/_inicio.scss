@@ -13,6 +13,7 @@
         background-image: url(../img/fotoinicio.jpeg);
         background-size: cover;
         height: 400px;
+        width: 100vw;
         background-position: center;
         margin: 30px 0;
 
@@ -38,6 +39,7 @@
             text-align: center;
             margin: 10px;
             flex-grow: 2;
+            box-shadow: 0 0 15px #626262;
 
             h3 {
             text-align: center;
@@ -50,7 +52,8 @@
         /* seccion aparte de novedades juridicas */
 
     .btn {
-        border: 1px solid;
+        // border: 1px solid;
+        box-shadow: 0 0 7px 1px #626262;
         font-weight: 400;
         font-size: 23px;
         margin-bottom: 20px;
@@ -61,7 +64,7 @@
 
     .btn:hover {
         transform: scale(1.05, 1.05);
-        border: 2px solid $colorPagina;
+        border: 1px solid $colorPagina;
         color: $colorPagina;
     }
 
