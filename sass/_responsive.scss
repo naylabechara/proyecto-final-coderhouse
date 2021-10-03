@@ -67,11 +67,12 @@
             
             .mainSobreNosotros {
                 flex-wrap: nowrap;
-            }
     
             .mainSobreNosotros__video {
                 order: -1;
+                width: 30vw;
             }
+        }
         
             /* Áreas */
     
@@ -88,6 +89,10 @@
                 margin: 80px;
             }
     
+        /* CONSULTAS FRECUENTES */
+        .consultasFrecuentes {
+            margin: 50px;
+        }
     
         /* CONTACTO */
     

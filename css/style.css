@@ -453,7 +453,7 @@ template {
 }
 
 .mainSobreNosotros .mainSobreNosotros__video {
-  width: 500px;
+  width: 90vw;
   height: auto;
   margin: 30px 50px;
   -webkit-box-shadow: 0 0 10px #626262;
@@ -546,7 +546,7 @@ template {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 50px;
+  margin: 20px;
 }
 
 .consultasFrecuentes .consultasFrecuentes__div {
@@ -554,7 +554,7 @@ template {
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: 30px;
-  margin: 30px;
+  margin: 20px;
   background-color: #a3a3a3;
   color: #181818;
   width: 500px;
@@ -719,10 +719,11 @@ footer .pieDePagina .pieDePagina__iconos a {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-  .mainSobreNosotros__video {
+  .mainSobreNosotros .mainSobreNosotros__video {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
+    width: 30vw;
   }
   /* Áreas */
   .areasAreas {
@@ -735,6 +736,10 @@ footer .pieDePagina .pieDePagina__iconos a {
   }
   .tablaAreas {
     margin: 80px;
+  }
+  /* CONSULTAS FRECUENTES */
+  .consultasFrecuentes {
+    margin: 50px;
   }
   /* CONTACTO */
   .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
