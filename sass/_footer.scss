@@ -4,15 +4,13 @@
 
 footer {
     background-image: linear-gradient($colorPagina, #011922);
-    margin-top: 0px;
     padding: 20px;
     width: 100vw;
 
     .pieDePagina {
         text-align: center;
         color: white;
-        font-family: montserrat;
-        line-height: 2;
+        line-height: 3;
         padding: 20px;
     
         .pieDePagina__h3 {
@@ -21,9 +19,7 @@ footer {
                 text-decoration: underline;
             }
         }
-        p {
-            margin-bottom: 15px;
-            }
+
     
         .pieDePagina__iconos {
             font-size: 18px;
@@ -36,7 +32,7 @@ footer {
             a {
                 color: rgb(255, 255, 255);
                 text-decoration: none;
-                margin: 0px;
+
             }
         }
     }

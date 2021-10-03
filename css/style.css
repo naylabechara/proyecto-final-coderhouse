@@ -346,12 +346,8 @@ template {
 .nav-item {
   /* ítems del menú */
   padding: 10px;
-}
-
-.nav-item .nav-link {
-  /* formato de los links */
-  font-size: 21px;
   font-weight: 500;
+  font-size: 21px;
 }
 
 /* Inicio */
@@ -370,8 +366,7 @@ template {
 }
 
 #tituloIndex h1 {
-  /* el "MCM" más grande */
-  font-size: 40px;
+  /* MCM */
   color: white;
 }
 
@@ -401,18 +396,20 @@ template {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
-  -webkit-box-shadow: 0 0 15px #626262;
-          box-shadow: 0 0 15px #626262;
+  -webkit-box-shadow: 0 0 15px #424242;
+          box-shadow: 0 0 15px #424242;
 }
 
 .mainInicio .mainInicio__div h3 {
   text-align: center;
   padding: 20px;
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 /* seccion aparte de novedades juridicas */
 .btn {
+  color: #313131;
   -webkit-box-shadow: 0 0 7px 1px #626262;
           box-shadow: 0 0 7px 1px #626262;
   font-weight: 400;
@@ -449,7 +446,7 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 40px;
+  padding: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: justify;
@@ -457,12 +454,10 @@ template {
 
 .mainSobreNosotros .mainSobreNosotros__video {
   width: 500px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
   margin: 30px 50px;
-  -webkit-box-shadow: 0 0 10px #464646;
-          box-shadow: 0 0 10px #464646;
+  -webkit-box-shadow: 0 0 10px #626262;
+          box-shadow: 0 0 10px #626262;
 }
 
 .mainSobreNosotros .mainSobreNosotros__h1 {
@@ -483,14 +478,15 @@ template {
 
 .areasAreas .areasAreas__div {
   text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   padding: 30px;
   width: 550px;
   background-color: #083B46;
   color: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-shadow: 0 0 10px #072025;
-          box-shadow: 0 0 10px #072025;
 }
 
 .areasAreas .areasAreas__div h2 {
@@ -515,8 +511,8 @@ template {
 
 .tablaAreas .tablaAreas__consulta {
   background-color: #083b46;
-  -webkit-box-shadow: 0 0 5px #555555;
-          box-shadow: 0 0 5px #555555;
+  -webkit-box-shadow: 0 0 5px #3a3a3a;
+          box-shadow: 0 0 5px #3a3a3a;
   padding: 15px;
   margin: 0;
   color: white;
@@ -526,14 +522,13 @@ template {
 
 .tablaAreas .tablaAreas__precio {
   background-color: #555555;
-  -webkit-box-shadow: 0 0 5px #555555;
-          box-shadow: 0 0 5px #555555;
+  -webkit-box-shadow: 0 0 5px #3a3a3a;
+          box-shadow: 0 0 5px #3a3a3a;
   color: white;
   padding: 15px;
   margin: 0;
 }
 
-/* Esto en CSS aparece con un error por ms-grid y no sé como sacarlo */
 .tablaAreas {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
@@ -551,17 +546,21 @@ template {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 50px 0;
+  margin: 50px;
 }
 
 .consultasFrecuentes .consultasFrecuentes__div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   padding: 30px;
   margin: 30px;
   background-color: #a3a3a3;
-  color: black;
+  color: #181818;
   width: 500px;
   -webkit-box-shadow: 0 0 15px #202020;
           box-shadow: 0 0 15px #202020;
+  border-radius: 7px;
 }
 
 .consultasFrecuentes .consultasFrecuentes__div h3 {
@@ -630,7 +629,6 @@ input, textarea {
 footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#083B46), to(#011922));
   background-image: linear-gradient(#083B46, #011922);
-  margin-top: 0px;
   padding: 20px;
   width: 100vw;
 }
@@ -638,18 +636,13 @@ footer {
 footer .pieDePagina {
   text-align: center;
   color: white;
-  font-family: montserrat;
-  line-height: 2;
+  line-height: 3;
   padding: 20px;
 }
 
 footer .pieDePagina .pieDePagina__h3 a {
   color: white;
   text-decoration: underline;
-}
-
-footer .pieDePagina p {
-  margin-bottom: 15px;
 }
 
 footer .pieDePagina .pieDePagina__iconos {
@@ -664,7 +657,6 @@ footer .pieDePagina .pieDePagina__iconos img {
 footer .pieDePagina .pieDePagina__iconos a {
   color: white;
   text-decoration: none;
-  margin: 0px;
 }
 
 /* Pantalla de escritorio */
@@ -673,12 +665,7 @@ footer .pieDePagina .pieDePagina__iconos a {
     font-size: 55px;
   }
   /* ENCABEZADO */
-  .container-fluid {
-    padding-left: 15px;
-  }
   .nav-link {
-    color: #083B46;
-    font-size: 21px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -692,21 +679,15 @@ footer .pieDePagina .pieDePagina__iconos a {
   /* INDEX (INICIO) */
   #tituloIndex {
     padding: 180px;
-    color: white;
-    text-align: center;
-    background-image: url(../img/fotoinicio.jpeg);
     height: 800px;
-    background-position: center;
-    margin: 0;
   }
   /* el "MCM" más grande */
   #tituloIndex h1 {
+    margin: 24px;
     font-size: 100px;
-    color: white;
     font-weight: 700;
   }
   .mainInicio {
-    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -718,31 +699,14 @@ footer .pieDePagina .pieDePagina__iconos a {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: 40px 0;
   }
   .mainInicio .mainInicio__div {
-    background-color: #083B46;
     padding: 30px;
     margin: 20px 40px;
     width: 300px;
-    height: 520px;
-    text-align: center;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-  }
-  .mainInicio .mainInicio__div:hover {
-    -webkit-transform: scale(1.05, 1.05);
-            transform: scale(1.05, 1.05);
-  }
-  .mainInicio .mainInicio__h3 {
-    text-align: center;
-    padding: 18px;
-    font-size: 30px;
-    font-weight: 700;
+    height: 550px;
   }
   .btn {
-    font-size: 23px;
-    padding: 7px 10px;
     width: 70%;
     margin: 10px 15%;
     border-radius: 0;
@@ -761,11 +725,16 @@ footer .pieDePagina .pieDePagina__iconos a {
             order: -1;
   }
   /* Áreas */
-  .areasAreas div {
+  .areasAreas {
+    margin: 50px;
+  }
+  .areasAreas .areasAreas__div {
     margin: 30px;
+    -webkit-box-shadow: 0 0 13px #555555;
+            box-shadow: 0 0 13px #555555;
   }
   .tablaAreas {
-    margin: 74px;
+    margin: 80px;
   }
   /* CONTACTO */
   .sectionDatosContacto__mapa, .sectionDatosContacto__datos {
@@ -780,15 +749,9 @@ footer .pieDePagina .pieDePagina__iconos a {
   footer {
     padding: 40px;
   }
-  footer .pieDePagina .pieDePagina__iconos {
+  .pieDePagina__iconos {
     padding: 30px;
     display: inline;
-  }
-  footer .pieDePagina div img {
-    width: 20px;
-  }
-  footer .pieDePagina .pieDePagina__h3 {
-    font-weight: 500;
   }
 }
 

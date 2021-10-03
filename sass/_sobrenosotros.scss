@@ -7,16 +7,15 @@
 .mainSobreNosotros {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 20px;
     flex-wrap: wrap;
     text-align: justify;
 
     .mainSobreNosotros__video {
         width: 500px;
-        height: fit-content;
+        height: auto;
         margin: 30px 50px;
-        // border: solid black 1px;
-        box-shadow: 0 0 10px rgb(70, 70, 70)
+        box-shadow: 0 0 10px rgb(98, 98, 98)
     }
 
     .mainSobreNosotros__h1 {
