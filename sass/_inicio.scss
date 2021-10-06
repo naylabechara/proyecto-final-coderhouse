@@ -51,19 +51,19 @@
 
         /* seccion aparte de novedades juridicas */
 
-    .btn {
-        // border: 1px solid;
-        color: #313131;
+    .btn-NJ {
+        border: none;
+        color: #444444;
         box-shadow: 0 0 7px 1px #626262;
-        font-weight: 400;
-        font-size: 23px;
+        font-weight:600;
+        font-size: 27px;
         margin-bottom: 20px;
         width: 100%;
         padding: 7px 10px;
         transition: transform 0.4s;
     }
 
-    .btn:hover {
+    .btn-NJ:hover {
         transform: scale(1.05, 1.05);
         border: 1px solid $colorPagina;
         color: $colorPagina;

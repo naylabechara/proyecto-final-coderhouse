@@ -408,12 +408,13 @@ template {
 }
 
 /* seccion aparte de novedades juridicas */
-.btn {
-  color: #313131;
+.btn-NJ {
+  border: none;
+  color: #444444;
   -webkit-box-shadow: 0 0 7px 1px #626262;
           box-shadow: 0 0 7px 1px #626262;
-  font-weight: 400;
-  font-size: 23px;
+  font-weight: 600;
+  font-size: 27px;
   margin-bottom: 20px;
   width: 100%;
   padding: 7px 10px;
@@ -423,7 +424,7 @@ template {
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
-.btn:hover {
+.btn-NJ:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
   border: 1px solid #083B46;
@@ -446,15 +447,22 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 20px;
+  margin: 10px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: justify;
+  line-height: 2;
+}
+
+.mainSobreNosotros div p {
+  margin: 20px;
 }
 
 .mainSobreNosotros .mainSobreNosotros__video {
   width: 90vw;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 30px 50px;
   -webkit-box-shadow: 0 0 10px #626262;
           box-shadow: 0 0 10px #626262;
@@ -462,6 +470,59 @@ template {
 
 .mainSobreNosotros .mainSobreNosotros__h1 {
   color: #083B46;
+  margin: 0;
+}
+
+.sectionSobreNosotros {
+  margin: 20px;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__h2 {
+  color: #083B46;
+  font-weight: 600;
+  margin: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div .misionSobreNosotros {
+  text-align: justify;
+  margin: 30px;
+  line-height: 2;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros {
+  text-align: justify;
+  margin: 50px 0;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros h3 {
+  text-align: center;
+  font-weight: 700;
+  margin: 40px;
+  font-size: 25px;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros p {
+  margin: 20px;
+  line-height: 2;
+}
+
+.sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros img {
+  -webkit-box-shadow: 0 2px 10px #4b4b4b;
+          box-shadow: 0 2px 10px #4b4b4b;
+  width: 90vw;
 }
 
 /* Áreas */
@@ -619,12 +680,6 @@ input, textarea {
   font-size: 19px;
 }
 
-.btn-secondary {
-  padding: 8px;
-  border: 1px solid;
-  border-radius: 4px;
-}
-
 /* Pie de pagina */
 footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#083B46), to(#011922));
@@ -706,7 +761,7 @@ footer .pieDePagina .pieDePagina__iconos a {
     width: 300px;
     height: 550px;
   }
-  .btn {
+  .btn-NJ {
     width: 70%;
     margin: 10px 15%;
     border-radius: 0;
@@ -718,12 +773,29 @@ footer .pieDePagina .pieDePagina__iconos a {
   .mainSobreNosotros {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    margin: 50px;
   }
   .mainSobreNosotros .mainSobreNosotros__video {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
-    width: 30vw;
+    width: 35vw;
+  }
+  .sectionSobreNosotros {
+    margin: 50px;
+  }
+  .sectionSobreNosotros .sectionSobreNosotros__h2 {
+    text-align: left;
+  }
+  .sectionSobreNosotros .sectionSobreNosotros__div {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros {
+    width: 350px;
+  }
+  .sectionSobreNosotros .sectionSobreNosotros__div .staffSobreNosotros h3 {
+    margin: 30px 0;
   }
   /* Áreas */
   .areasAreas {
@@ -768,6 +840,15 @@ footer .pieDePagina .pieDePagina__iconos a {
 body {
   background-color: #d4d4d4;
   font-family: montserrat;
+}
+
+.fa-whatsapp-square {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #22b150;
+  text-align: center;
+  font-size: 50px;
 }
 
 /* esto es para el h1 de las ultimas 4 secciones */

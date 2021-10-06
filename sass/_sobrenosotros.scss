@@ -7,18 +7,71 @@
 .mainSobreNosotros {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    margin: 10px;
     flex-wrap: wrap;
     text-align: justify;
+    line-height: 2;
+
+    div p {
+        margin: 20px;
+    }
 
     .mainSobreNosotros__video {
         width: 90vw;
-        height: auto;
+        height: fit-content;
         margin: 30px 50px;
         box-shadow: 0 0 10px rgb(98, 98, 98)
     }
 
     .mainSobreNosotros__h1 {
         color: #083B46;
+        margin: 0;
+    }
+}
+
+.sectionSobreNosotros {
+    margin: 20px;
+
+    .sectionSobreNosotros__h2 {
+        color: #083B46;
+        font-weight: 600;
+        margin: 30px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .sectionSobreNosotros__div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+
+        .misionSobreNosotros {
+            text-align: justify;
+            margin: 30px;
+            line-height: 2;
+        }
+        
+        .staffSobreNosotros {
+            text-align: justify;
+            margin: 50px 0;
+            h3 {
+                text-align: center;
+                font-weight: 700;
+                margin: 40px;
+                font-size: 25px;
+            }
+            p {
+                margin: 20px;
+                line-height: 2;
+                }
+            
+            img {
+                box-shadow: 0 2px 10px #4b4b4b;
+                width: 90vw;
+                
+            }
+        }
     }
 }
